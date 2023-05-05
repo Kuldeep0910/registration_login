@@ -17,8 +17,6 @@
     </head>
     <body>
         <form class="form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-        <!-- <a href="signin.html"><button class="button" type="button" name="login">Sign in</button></a>
-        <a href="signup.html"><button class="button" type="button" name="signup">Sign up</button></a> -->
             <input type="submit" name="login" class="button" value="Sign in">
             <input type="submit" name="signup" class="button" value="Sign up">
         </form>
